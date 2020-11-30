@@ -1,0 +1,16 @@
+.info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-info,
+.day-before-info,
+.two-days-before-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    color: brown;
+    font-size: medium;
+}
